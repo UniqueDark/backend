@@ -13,18 +13,26 @@
     "mongodb": "^7.7.0",
     "mongoose": "^9.11.4",
     "morgan": "^1.12.1",
-    "nodemailer": "^10.2.1",
-    "nodemon": "^3.1.14"
+    "nodemailer": "^10.2.1"
+    
   },
   "name": "complete-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon index.js",
+    "start":"nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
 
   },
-  "keywords": [],
-  "type": "module"
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "type": "module",
+  "author": "UniqueDark",
+  "license":"ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
