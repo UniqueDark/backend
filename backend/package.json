@@ -4,6 +4,7 @@
     "@upstash/workflow": "^1.4.0",
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
     "dayjs": "^1.11.23",
     "debug": "^4.4.3",
     "dotenv": "^18.0.9",
@@ -14,16 +15,14 @@
     "mongoose": "^9.11.4",
     "morgan": "^1.12.1",
     "nodemailer": "^10.2.1"
-    
   },
   "name": "complete-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon -r dotenv/config src/index.js",
+    "start": "nodemon -r dotenv/config src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-
   },
   "keywords": [
     "javascript",
@@ -31,7 +30,7 @@
   ],
   "type": "module",
   "author": "UniqueDark",
-  "license":"ISC",
+  "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.14"
   }
